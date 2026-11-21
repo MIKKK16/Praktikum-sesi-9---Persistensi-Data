@@ -23,8 +23,7 @@ MaterialApp(
   home: const MyHomePage(),
 );
 ```
-
-![Soal 1](docs/soal01.png)
+<img width="979" height="526" alt="image" src="https://github.com/user-attachments/assets/1134de27-0507-4dc5-8785-5d9a70d7cf2b" />
 
 ## Soal 2 - Screenshot hasil membaca JSON (Praktikum 1)
 
@@ -42,8 +41,7 @@ Future readJsonFile() async {
   });
 }
 ```
-
-![Soal 2](docs/soal02.png)
+<img width="979" height="526" alt="image" src="https://github.com/user-attachments/assets/e9418ec3-fc4a-48df-9457-87b736e625dc" />
 
 ## Soal 3 - Screenshot hasil ListView List<Pizza> (Praktikum 1)
 
@@ -68,8 +66,7 @@ body: ListView.builder(
   },
 ),
 ```
-
-![Soal 3](docs/soal03.png)
+<img width="979" height="525" alt="image" src="https://github.com/user-attachments/assets/d7aa9105-8a66-4e6a-9b34-9f9e9412c2c8" />
 
 ## Soal 4 - Run dengan data JSON tidak konsisten (Praktikum 2)
 
@@ -104,7 +101,7 @@ Hasil yang diharapkan dengan `assets/pizzalist_broken.json` (aktifkan switch di 
 | 3 | id "tiga", price "mahal", description hilang | Napoli, id 0, harga 0.0, deskripsi kosong |
 | 4 | id hilang, pizzaName 404 (angka), description 12345 | 404, id 0, deskripsi 12345, harga 9.0 |
 
-![Soal 4](docs/soal04.png)
+<img width="979" height="526" alt="image" src="https://github.com/user-attachments/assets/cb4e8321-7fd3-4311-85c0-372ce667cf30" />
 
 ## Soal 5 - Maksud kode lebih safe dan maintainable (Praktikum 3)
 
@@ -132,7 +129,7 @@ Kunci yang sama dipakai di dua tempat, yaitu `toJson()` dan `fromJson()`. Dengan
 
 Kesimpulan: konstanta membuat kode **safe** karena typo ketahuan saat kompilasi, dan **maintainable** karena kunci hanya diubah di satu tempat.
 
-![Soal 5](docs/soal05.png)
+<img width="979" height="526" alt="image" src="https://github.com/user-attachments/assets/976fc835-1c10-4e82-a67e-47ce138dc57b" />
 
 ## Soal 6 - GIF SharedPreferences: counter dan reset (Praktikum 4)
 
@@ -160,7 +157,7 @@ Future deletePreference() async {
 - Tutup aplikasi sepenuhnya lalu buka lagi (bukan sekadar hot reload). Angka naik menjadi 2, 3, dan seterusnya. Ini membuktikan data bertahan walau aplikasi ditutup.
 - Tekan *Reset counter*, angka kembali 0.
 
-![Soal 6](docs/soal06.png)
+<img width="979" height="525" alt="image" src="https://github.com/user-attachments/assets/07b76b2a-d4a5-44f6-a801-65ee9ed1c345" />
 
 ## Soal 7 - Screenshot path documents dan temp (Praktikum 5)
 
@@ -184,7 +181,7 @@ Future getPaths() async {
 
 Di Android emulator, bentuk path biasanya `/data/user/0/<nama.package>/app_flutter` untuk documents dan `/data/user/0/<nama.package>/cache` untuk temp. Hasil pastinya berbeda di tiap perangkat, jadi screenshot harus diambil dari aplikasimu sendiri.
 
-![Soal 7](docs/soal07.png)
+<img width="979" height="526" alt="image" src="https://github.com/user-attachments/assets/dd9bc580-ca3a-4263-8dfb-009f7d6b0059" />
 
 ## Soal 8 - Penjelasan kode dan GIF akses file (Praktikum 6)
 
@@ -230,7 +227,7 @@ getPaths().then((_) {
 
 Catatan project: pada *store_data_david* logika yang sama dipindahkan ke `LocalStorageService` (`writePizzaFile` dan `readPizzaFile`) dan menyimpan daftar pizza sebagai JSON. Jika dosen meminta persis seperti slide, gunakan versi `pizzas.txt` di atas.
 
-![Soal 8](docs/soal08.png)
+<img width="979" height="528" alt="image" src="https://github.com/user-attachments/assets/7872bf9a-e369-45e2-8f18-845405ba912c" />
 
 ## Soal 9 - GIF secure storage (Praktikum 7)
 
@@ -258,4 +255,5 @@ Future<String> readFromSecureStorage() async {
 
 Untuk Android, `flutter_secure_storage` biasanya membutuhkan `minSdkVersion` 23 di `android/app/build.gradle`.
 
-![Soal 9](docs/soal09.png)
+<img width="979" height="525" alt="image" src="https://github.com/user-attachments/assets/a3435105-f3f0-4ac8-be69-23921676436d" />
+
